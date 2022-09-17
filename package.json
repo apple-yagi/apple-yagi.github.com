@@ -8,7 +8,8 @@
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "format": "prettier -w ."
   },
   "dependencies": {
     "@astrojs/mdx": "^0.11.1",
@@ -17,6 +18,8 @@
     "astro": "^1.2.6"
   },
   "devDependencies": {
+    "prettier": "^2.7.1",
+    "prettier-plugin-astro": "^0.5.4",
     "rollup": "^2.79.0"
   }
 }
