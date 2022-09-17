@@ -1,0 +1,5 @@
+{
+  "*.{astro,js,mjs,jsx,ts,tsx,json,css}": [
+    "prettier --write"
+  ]
+}
