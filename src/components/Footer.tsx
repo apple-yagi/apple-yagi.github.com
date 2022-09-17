@@ -3,7 +3,7 @@ export const Footer = (): JSX.Element => {
 
   return (
     <footer style={{ padding: 25, textAlign: "center" }}>
-      &copy; {today.getFullYear()} YOUR NAME HERE. All rights reserved.
+      &copy; {today.getFullYear()} apple-yagi. All rights reserved.
     </footer>
   );
 };
