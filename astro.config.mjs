@@ -7,5 +7,14 @@ import sitemap from "@astrojs/sitemap";
 // https://astro.build/config
 export default defineConfig({
   site: "https://example.com",
-  integrations: [mdx(), sitemap(), react(), tailwind()],
+  integrations: [
+    mdx(),
+    sitemap(),
+    react(),
+    tailwind({
+      config: {
+        path: "./tailwind.config.cjs",
+      },
+    }),
+  ],
 });
