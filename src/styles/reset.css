@@ -48,7 +48,7 @@ Remove the margin in all browsers.
 
 body {
   margin: 0;
-  font-size: 1.6rem; /* revert to default size 1.6rem = 16px now */
+  font-size: 1rem; /* revert to default size 1rem = 16px now */
 }
 
 /**
